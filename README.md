@@ -5,3 +5,7 @@ Cómo desplegar (sin morir en el intento) una app utilizando un teléfono real y
 
 Para este tutorial necesitaremos:
 
+* Un teléfono Android real
+* Un emulador Android Wear (creado desde el Google Emulator Manager)
+
+
