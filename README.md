@@ -13,4 +13,7 @@ Pasos a seguir:
 
 1. Conectar teléfono al PC con el **modo depuración USB** activado
 2. Instalar en teléfono la **App Android Wear** desde Google Play
-3. Instalar aplicación
+3. Iniciar el emulador de Android Wear
+4. Abrir terminal **SDK Command Prompt** (menú Tools) y escribir adb -d forward tcp:5601 tcp:5601
+5. Abrir la app de Android Wear de nuestro teléfono y en el icono de configuración emparejar con el dispositivos Android Wear
+
