@@ -17,3 +17,7 @@ Pasos a seguir:
 4. Abrir terminal **SDK Command Prompt** (menú Tools) y escribir adb -d forward tcp:5601 tcp:5601
 5. Abrir la app de Android Wear de nuestro teléfono y en el icono de configuración emparejar con el dispositivos Android Wear
 
+# Solución al problema de Google Play Services
+
+Utilizar la versión 42.1001.0 para todos los paquetes Xamarin.GooglePlayServices dado que existe un bug que impide la correcta comunicación entre el Wear emulador y el dispositivo móvil porque Xamarin detecta versiones incompatibles.
+
